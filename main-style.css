@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html, body {
+  background-color: #003566;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+h4 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.navbar {
+  background-color:#000814;
+  padding: 5px 10px;
+  align-items: center;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow: hidden;
+  border-bottom: 5px inset #001D3D;
+  transition: ease-in 0.1s;
+}
+
+.navbar:hover {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  transition: ease-in 0.3s;
+}
+
+.navbar > div {
+  display: table-row;
+}
+
+.navbar > div > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.nav-button {
+  display: inline-grid;
+  vertical-align: middle;
+  padding: 5px 10px;
+}
+
+.nav-button > li {
+  list-style-type: none;
+  display: inline-grid;
+  background-color: none;
+  color: #003566;
+  padding: 5px 10px;
+  border-left: 1px solid #003566;
+  border-right: 1px solid #003566;
+  transition: ease-in 0.1s;
+}
+
+.nav-button > li:hover {
+  padding: 20px 50px;
+  font-weight: 700;
+  transition: ease-in 0.3s;
+}
+
+.hughes {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32pt;
+  text-align: center; 
+  color: #FFC300;
+}
+
+.footer {
+  padding: 5px 10px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16pt;
+  color: #FFC300;
+  vertical-align: bottom;
+}
+
+:root {
+  --dark: #000814;
+  --mild: #001D3D;
+  --highlight: #003566;
+  --bright: #FFC300;
+  --brightest: #FFD60A;
+}
